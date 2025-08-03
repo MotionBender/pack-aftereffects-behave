@@ -1,6 +1,12 @@
-export default function ProjectFeaturesPromoPack() {
+type ProjectFeaturesPromoPackProps = {
+  id?: string;
+};
+
+export default function ProjectFeaturesPromoPack({
+  id = "projectFeaturesPromoPack",
+}: ProjectFeaturesPromoPackProps) {
   return (
-    <div className="w-full md:w-[550px] px-3 mb-5">
+    <div className="w-full md:w-[550px] px-3 mb-5" id={`${id}`}>
       <div className="flex flex-col bg-degrade-venda p-4 rounded-xl">
         <h1 className="font-extrabold text-2xl text-white font-montserrat  md:text-6xl">
           Project Features
