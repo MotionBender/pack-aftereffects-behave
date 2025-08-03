@@ -30,7 +30,9 @@ export default function PromoPack01() {
 
         <ProjectFeaturesPromoPack />
 
-        <ButtonComprar>Buy now</ButtonComprar>
+        <ButtonComprar href="https://pay.hotmart.com/B101169313N">
+          Buy now
+        </ButtonComprar>
         <div className="text-center p-3">
           <p className="text-white mt-5">100% secure purchase.</p>
           <p className="text-white">One-time payment and lifetime access</p>
