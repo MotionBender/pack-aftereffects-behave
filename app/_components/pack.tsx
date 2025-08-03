@@ -1,12 +1,6 @@
 import Image from "next/image";
 import { ButtonComprarPacks } from "./button-comprar-packs";
-
-type PackProps = {
-  tituloPack: string;
-  subTituloPack1: string;
-  subTituloPack2: string;
-  descricao1: string;
-};
+import { PackProps } from "../types/packProps";
 
 export default function Pack({
   tituloPack,

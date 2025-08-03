@@ -1,6 +1,6 @@
 import { FaCircle } from "react-icons/fa";
 import Image from "next/image";
-import VideoPackHorizontal from "./videoPackHorizontal";
+import VideoPackHorizontal from "../_components/videoPackHorizontal";
 
 export default function FreeProjectMorales() {
   return (

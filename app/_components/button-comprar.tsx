@@ -1,10 +1,5 @@
-import { ReactNode } from "react";
 import Link from "next/link";
-
-type ButtonComprarProps = {
-  children: ReactNode;
-  href: string;
-};
+import { ButtonComprarProps } from "../types/ButtonComprarProps";
 
 export function ButtonComprar({ children, href }: ButtonComprarProps) {
   return (

@@ -1,11 +1,6 @@
 import Image from "next/image";
 import { MdOutlineFileDownload } from "react-icons/md";
-
-type BannerPackDisponivelProps = {
-  titulo: string;
-  descricao: string;
-  descricao2?: string;
-};
+import { BannerPackDisponivelProps } from "../types/bannerPackDisponivelProps";
 
 export function BannerPackDisponivel({
   titulo,

@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa";
-import { ButtonComprar } from "./button-comprar";
+import { ButtonComprar } from "../_components/button-comprar";
 
 export function EverythingYouGet() {
   return (

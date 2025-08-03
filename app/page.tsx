@@ -1,15 +1,15 @@
 import { Metadata } from "next";
-import { CompreAgora } from "./_components/compreAgora";
-import { Direitos } from "./_components/direitos";
-import EditTheWay from "./_components/editTheWay";
-import EssentialPack01 from "./_components/essentialPack01";
+
+import EditTheWay from "./pages/editTheWay";
+import EssentialPack01 from "./pages/essentialPack01";
+import { EverythingYouGet } from "./pages/everythingYouGet";
+import FreeProjectMorales from "./pages/freeProjectMorales";
 import { Garantia } from "./_components/garantia";
-import { Hero } from "./_components/hero";
-import MorePacks from "./_components/morePacks";
+import MorePacks from "./pages/morePacks";
 import { NavBar } from "./_components/navbar";
-import PromoPack01 from "./_components/promoPack01";
-import { EverythingYouGet } from "./_components/everythingYouGet";
-import FreeProjectMorales from "./_components/freeProjectMorales";
+import PromoPack01 from "./pages/promoPack01";
+import { Hero } from "./pages/hero";
+import { Direitos } from "./pages/direitos";
 
 export const metadata: Metadata = {
   title: "Pack de Templates After Effects - Crie Vídeos Incríveis",

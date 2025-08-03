@@ -1,4 +1,4 @@
-import Pack from "./pack";
+import Pack from "../_components/pack";
 
 export default function MorePacks() {
   return (

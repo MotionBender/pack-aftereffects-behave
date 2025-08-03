@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactTyped } from "react-typed";
-import { ButtonComprar } from "./button-comprar";
+import { ButtonComprar } from "../_components/button-comprar";
 
 export function Hero() {
   return (

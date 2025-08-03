@@ -1,8 +1,4 @@
-import { ReactNode } from "react";
-
-type ButtonComprarPacksProps = {
-  children: ReactNode;
-};
+import { ButtonComprarPacksProps } from "../types/ButtonComprarPacksProps";
 
 export function ButtonComprarPacks({ children }: ButtonComprarPacksProps) {
   return (

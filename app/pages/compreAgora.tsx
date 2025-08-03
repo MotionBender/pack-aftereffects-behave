@@ -1,4 +1,4 @@
-import { ButtonComprar } from "./button-comprar";
+import { ButtonComprar } from "../_components/button-comprar";
 
 export function CompreAgora() {
   return (

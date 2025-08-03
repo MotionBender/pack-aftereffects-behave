@@ -1,5 +1,5 @@
 import { SlSizeFullscreen } from "react-icons/sl";
-import VideoPackHorizontal from "./videoPackHorizontal";
+import VideoPackHorizontal from "../_components/videoPackHorizontal";
 import { MdOutlineColorLens } from "react-icons/md";
 import { PiClockCountdown } from "react-icons/pi";
 

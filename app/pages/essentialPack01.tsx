@@ -1,10 +1,10 @@
 import { MdOutlineColorLens } from "react-icons/md";
 import { PiClockCountdown } from "react-icons/pi";
 import { SlSizeFullscreen } from "react-icons/sl";
-import { BannerPackDisponivel } from "./bannerPackDisponivel";
-import { ButtonComprar } from "./button-comprar";
-import VideoPackHorizontal from "./videoPackHorizontal";
-import ProjectFeaturesEssentialPack from "./projectFeaturesEssentialPack";
+import { BannerPackDisponivel } from "../_components/bannerPackDisponivel";
+import { ButtonComprar } from "../_components/button-comprar";
+import VideoPackHorizontal from "../_components/videoPackHorizontal";
+import ProjectFeaturesEssentialPack from "../_components/projectFeaturesEssentialPack";
 
 export default function EssentialPack01() {
   return (

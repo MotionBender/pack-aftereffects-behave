@@ -1,7 +1,7 @@
-import { BannerPackDisponivel } from "./bannerPackDisponivel";
-import { ButtonComprar } from "./button-comprar";
-import ProjectFeaturesPromoPack from "./projectFeaturesPromoPack";
-import VideoPackVertical from "./videoPackVertical";
+import { BannerPackDisponivel } from "../_components/bannerPackDisponivel";
+import { ButtonComprar } from "../_components/button-comprar";
+import ProjectFeaturesPromoPack from "../_components/projectFeaturesPromoPack";
+import VideoPackVertical from "../_components/videoPackVertical";
 
 export default function PromoPack01() {
   return (
