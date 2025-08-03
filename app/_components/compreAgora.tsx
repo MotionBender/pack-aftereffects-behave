@@ -21,7 +21,7 @@ export function CompreAgora() {
             </div>
 
             <p className="text-gray-400 mb-5">Envio imediato</p>
-            <ButtonComprar>Buy Now</ButtonComprar>
+            <ButtonComprar href="/">Buy Now</ButtonComprar>
             <p className="text-white mt-5">100% secure purchase.</p>
             <p className="text-white">One-time payment and lifetime access</p>
             <img

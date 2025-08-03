@@ -46,7 +46,7 @@ export function EverythingYouGet() {
         </div>
       </div>
 
-      <ButtonComprar>Buy Now</ButtonComprar>
+      <ButtonComprar href="/">Buy Now</ButtonComprar>
     </div>
   );
 }

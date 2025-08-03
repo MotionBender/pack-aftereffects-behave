@@ -43,7 +43,9 @@ export function Hero() {
               templates that are ready to use and perfect for any project.
             </p>
 
-            <ButtonComprar>Buy Now</ButtonComprar>
+            <ButtonComprar href="#projectFeaturesPromoPack">
+              Buy Now
+            </ButtonComprar>
           </div>
         </div>
       </div>
