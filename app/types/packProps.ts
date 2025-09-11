@@ -3,4 +3,5 @@ export type PackProps = {
   subTituloPack1: string;
   subTituloPack2: string;
   descricao1: string;
+  srcImagem: string;
 };

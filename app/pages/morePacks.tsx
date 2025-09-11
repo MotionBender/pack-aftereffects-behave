@@ -7,19 +7,37 @@ export default function MorePacks() {
         MORE PACKS
       </h1>
 
-      <div className="max-w-[1000px] mx-auto flex flex-col items-center justify-center my-5">
+      <div className="max-w-[1000px] mx-auto flex flex-col items-center justify-center my-5 gap-10">
         <div className="flex gap-4 m-3 md:grid md:grid-cols-2 md:m-0">
           <Pack
-            tituloPack="Pack 01"
+            tituloPack="Assets Pack"
             subTituloPack1="Big Pack"
             subTituloPack2="Instagram"
             descricao1="640 Animations and Effects"
+            srcImagem="/images/more_packs/assets-pack.png"
           />
           <Pack
-            tituloPack="Pack 02"
+            tituloPack="Motion Graphics"
             subTituloPack1="Gaze"
             subTituloPack2="Graphic Pack"
             descricao1="4500 Animations and Effects"
+            srcImagem="/images/more_packs/motion-graphics-pack.png"
+          />
+        </div>
+        <div className="flex gap-4 md:grid md:grid-cols-2 md:m-0">
+          <Pack
+            tituloPack="Transition Pack"
+            subTituloPack1="Big Pack"
+            subTituloPack2="Instagram"
+            descricao1="640 Animations and Effects"
+            srcImagem="/images/more_packs/transition-pack.png"
+          />
+          <Pack
+            tituloPack="Typography Pack"
+            subTituloPack1="Gaze"
+            subTituloPack2="Graphic Pack"
+            descricao1="4500 Animations and Effects"
+            srcImagem="/images/more_packs/typography-pack.png"
           />
         </div>
       </div>
