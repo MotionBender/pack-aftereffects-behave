@@ -60,24 +60,33 @@ export default function Pack({
           <div className="flex items-center justify-center">
             <Carousel className="w-[80%] text-black">
               <CarouselContent>
-                {arrayCaminhoVideos.map((videoSrc, index) => (
-                  <CarouselItem
-                    key={index}
-                    className="flex items-center justify-center"
-                  >
-                    <div className="flex items-center justify-center w-full h-full p-2">
-                      <video
-                        src={videoSrc}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="max-h-96 w-auto mx-auto rounded"
-                        // poster="/images/after_effects_icon.png"
-                      />
-                    </div>
-                  </CarouselItem>
-                ))}
+                {arrayCaminhoVideos && arrayCaminhoVideos.length > 0 ? (
+                  // Se o array tiver itens, renderiza o carrossel
+                  arrayCaminhoVideos.map((videoSrc, index) => (
+                    <CarouselItem
+                      key={index}
+                      className="flex items-center justify-center"
+                    >
+                      <div className="flex items-center justify-center w-full h-full p-2">
+                        <video
+                          src={videoSrc}
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          className="max-h-96 w-auto mx-auto rounded"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))
+                ) : (
+                  // Se o array estiver vazio, renderiza a div "em breve"
+                  <div className="flex items-center justify-center w-100 bg-gray-100 rounded">
+                    <p className="text-gray-500 text-lg font-semibold text-center">
+                      Coming soon...
+                    </p>
+                  </div>
+                )}
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />
