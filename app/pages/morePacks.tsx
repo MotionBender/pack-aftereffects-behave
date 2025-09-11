@@ -17,6 +17,14 @@ export default function MorePacks() {
     "/videos/previews/typography-pack/main-5.mp4",
   ];
 
+  const transitionVideos = [
+    "/videos/previews/transition-pack/main-1.mp4",
+    "/videos/previews/transition-pack/main-2.mp4",
+    "/videos/previews/transition-pack/main-3.mp4",
+    "/videos/previews/transition-pack/main-4.mp4",
+    "/videos/previews/transition-pack/main-5.mp4",
+  ];
+
   return (
     <div className="w-full flex flex-col items-center bg-cor-azul-site px-4">
       <h1 className="text-white font-extrabold text-4xl my-6 md:text-6xl">
@@ -48,6 +56,7 @@ export default function MorePacks() {
             subTituloPack2="Instagram"
             descricao1="640 Animations and Effects"
             srcImagem="/images/more_packs/transition-pack.png"
+            arrayCaminhoVideos={transitionVideos}
           />
           <Pack
             tituloPack="Typography Pack"
