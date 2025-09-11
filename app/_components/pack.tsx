@@ -46,15 +46,17 @@ export default function Pack({
             See animations
           </button>
         </DialogTrigger>
-        <DialogContent className="max-w-2xl w-full flex flex-col items-center justify-center">
+        <DialogContent className="max-w-2xl w-full flex flex-col items-center justify-center bg-[#00081f] text-white">
           <DialogHeader>
-            <DialogTitle>Animations Preview</DialogTitle>
+            <DialogTitle className="text-center">
+              Animations Preview
+            </DialogTitle>
             <DialogDescription>
-              Preview the motion graphics included in this pack.
+              Preview the {tituloPack} included in this pack.
             </DialogDescription>
           </DialogHeader>
-          <div className="relative w-full max-w-lg mx-auto flex flex-col items-center justify-center">
-            <Carousel className="w-full">
+          <div className="flex items-center justify-center">
+            <Carousel className="w-[80%] text-black">
               <CarouselContent>
                 {arrayCaminhoVideos.map((videoSrc, index) => (
                   <CarouselItem
@@ -65,8 +67,11 @@ export default function Pack({
                       <video
                         src={videoSrc}
                         autoPlay
+                        loop
+                        muted
+                        playsInline
                         className="max-h-96 w-auto mx-auto rounded"
-                        poster="/images/after_effects_icon.png"
+                        // poster="/images/after_effects_icon.png"
                       />
                     </div>
                   </CarouselItem>
