@@ -29,12 +29,14 @@ export default function Pack({
 }: PackProps) {
   return (
     <div className="flex flex-col">
-      <h1 className="text-white font-extrabold text-4xl mb-3">{tituloPack}</h1>
+      <h1 className="text-white font-extrabold text-xl md:text-4xl mb-3 text-center">
+        {tituloPack}
+      </h1>
       <Image
         src={srcImagem}
         alt="Pack 01 image"
         width={320}
-        height={320}
+        height={566}
         className="rounded-lg mb-3"
       />
       <h1 className="text-white font-extrabold">{subTituloPack1}</h1>
