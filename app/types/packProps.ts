@@ -4,4 +4,5 @@ export type PackProps = {
   subTituloPack2: string;
   descricao1: string;
   srcImagem: string;
+  arrayCaminhoVideos?: string[];
 };

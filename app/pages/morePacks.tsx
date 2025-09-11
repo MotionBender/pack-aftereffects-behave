@@ -1,6 +1,14 @@
 import Pack from "../_components/pack";
 
 export default function MorePacks() {
+  const motionGraphicVideos = [
+    "/videos/previews/motion-graphic/main-1.mp4",
+    "/videos/previews/motion-graphic/main-2.mp4",
+    "/videos/previews/motion-graphic/main-3.mp4",
+    "/videos/previews/motion-graphic/main-4.mp4",
+    "/videos/previews/motion-graphic/main-5.mp4",
+  ];
+
   return (
     <div className="w-full flex flex-col items-center bg-cor-azul-site px-4">
       <h1 className="text-white font-extrabold text-4xl my-6 md:text-6xl">
@@ -22,6 +30,7 @@ export default function MorePacks() {
             subTituloPack2="Graphic Pack"
             descricao1="4500 Animations and Effects"
             srcImagem="/images/more_packs/motion-graphics-pack.png"
+            arrayCaminhoVideos={motionGraphicVideos}
           />
         </div>
         <div className="flex gap-4 md:grid md:grid-cols-2 md:m-0">
