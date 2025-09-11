@@ -1,4 +1,4 @@
-import { ButtonComprarPacksProps } from "../types/ButtonComprarPacksProps";
+import { ButtonComprarPacksProps } from "../types/buttonComprarPacksProps";
 
 export function ButtonComprarPacks({ children }: ButtonComprarPacksProps) {
   return (

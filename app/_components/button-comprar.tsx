@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ButtonComprarProps } from "../types/ButtonComprarProps";
+import { ButtonComprarProps } from "../types/buttonComprarProps";
 
 export function ButtonComprar({ children, href }: ButtonComprarProps) {
   return (
