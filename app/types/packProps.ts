@@ -5,4 +5,5 @@ export type PackProps = {
   descricao1: string;
   srcImagem: string;
   arrayCaminhoVideos?: string[];
+  href: string;
 };

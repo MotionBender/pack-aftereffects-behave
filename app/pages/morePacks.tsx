@@ -39,6 +39,7 @@ export default function MorePacks() {
             subTituloPack2="Instagram"
             descricao1="640 Animations and Effects"
             srcImagem="/images/more_packs/assets-pack.png"
+            href="https://pay.hotmart.com/U101505027Q"
           />
           <Pack
             tituloPack="Motion Graphics"
@@ -47,6 +48,7 @@ export default function MorePacks() {
             descricao1="450 Animations and Effects"
             srcImagem="/images/more_packs/motion-graphics-pack.png"
             arrayCaminhoVideos={motionGraphicVideos}
+            href="https://pay.hotmart.com/J101504754G"
           />
         </div>
         <div className="flex gap-4 md:grid md:grid-cols-2 md:m-0">
@@ -57,6 +59,7 @@ export default function MorePacks() {
             descricao1="640 Animations and Effects"
             srcImagem="/images/more_packs/transition-pack.png"
             arrayCaminhoVideos={transitionVideos}
+            href="https://pay.hotmart.com/S101585148G"
           />
           <Pack
             tituloPack="Typography Pack"
@@ -65,6 +68,7 @@ export default function MorePacks() {
             descricao1="450 Animations and Effects"
             srcImagem="/images/more_packs/typography-pack.png"
             arrayCaminhoVideos={typographyVideos}
+            href="https://pay.hotmart.com/Q101305699L"
           />
         </div>
       </div>

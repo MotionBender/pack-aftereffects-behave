@@ -26,6 +26,7 @@ export default function Pack({
   descricao1,
   srcImagem,
   arrayCaminhoVideos = [],
+  href,
 }: PackProps) {
   return (
     <div className="flex flex-col">
@@ -94,7 +95,7 @@ export default function Pack({
           </div>
         </DialogContent>
       </Dialog>
-      <ButtonComprarPacks>Buy Now</ButtonComprarPacks>
+      <ButtonComprarPacks href={href}>Buy Now</ButtonComprarPacks>
     </div>
   );
 }

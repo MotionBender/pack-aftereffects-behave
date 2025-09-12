@@ -58,7 +58,9 @@ export default function EssentialPack01() {
 
         <ProjectFeaturesEssentialPack />
 
-        <ButtonComprar href="/">Buy now</ButtonComprar>
+        <ButtonComprar href="https://pay.hotmart.com/I101255610S">
+          Buy now
+        </ButtonComprar>
         <div className="text-center p-3 mb-5">
           <p className="text-white mt-5">100% secure purchase.</p>
           <p className="text-white">One-time payment and lifetime access</p>
