@@ -1,6 +1,7 @@
 import { FaCircle } from "react-icons/fa";
 import Image from "next/image";
 import VideoPackHorizontal from "../_components/videoPackHorizontal";
+import Link from "next/link";
 
 export default function FreeProjectMorales() {
   return (
@@ -38,9 +39,13 @@ export default function FreeProjectMorales() {
             height="md:h-100"
             padding="p-4"
           />
-          <button className="cursor-pointer bg-amber-300 font-[300] rounded-2xl mb-[-1rem] p-3 md:text-5xl md:px-10 md:mb-[-1.5rem] md:w-120 transition-all duration-300 ease-in-out hover:bg-amber-400 hover:shadow-lg hover:scale-105 active:scale-95 active:shadow-inner">
+          <Link
+            href="https://drive.google.com/drive/folders/18lSbc0dWmomqVLdjk_ezDtVSCKPoezsJ"
+            target="_blank"
+            className="text-center cursor-pointer bg-amber-300 font-[300] rounded-2xl mb-[-1rem] p-3 md:text-5xl md:px-10 md:mb-[-1.5rem] md:w-120 transition-all duration-300 ease-in-out hover:bg-amber-400 hover:shadow-lg hover:scale-105 active:scale-95 active:shadow-inner"
+          >
             Download now
-          </button>
+          </Link>
         </div>
       </div>
     </div>
