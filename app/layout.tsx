@@ -19,8 +19,8 @@ const siteUrl = "https://www.motionbender.com.br";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "After Effects Packs - Behave",
-    template: "%s | Behave AE Packs",
+    default: "After Effects Packs - Motionbender",
+    template: "%s | Motionbender AE Packs",
   },
   description:
     "Buy exclusive After Effects packs for your creative projects. High-quality templates, transitions, and motion graphics for professionals.",
@@ -33,21 +33,23 @@ export const metadata: Metadata = {
     "promo pack",
     "essential pack",
     "behave",
+    "motionbender",
     "buy after effects packs",
     "video templates",
     "typography pack",
     "transition pack",
     "assets pack",
   ],
+  authors: [{ name: "[Vitor Letta - Behave]" }],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "After Effects Packs - Behave",
+    title: "After Effects Packs - Motionbender",
     description:
       "Buy exclusive After Effects packs for your creative projects. High-quality templates, transitions, and motion graphics for professionals.",
     url: siteUrl,
-    siteName: "Behave AE Packs",
+    siteName: "Motionbender AE Packs",
     images: [
       {
         url: "/images/logo-behave.jpg",
@@ -61,10 +63,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "After Effects Packs - Behave",
+    title: "After Effects Packs - Motionbender",
     description:
       "Buy exclusive After Effects packs for your creative projects. High-quality templates, transitions, and motion graphics for professionals.",
-    images: [`${siteUrl}/images/pack02.png`],
+    images: [`${siteUrl}/images/logo-behave.jpg`],
   },
   robots: {
     index: true,
