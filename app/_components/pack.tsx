@@ -30,7 +30,7 @@ export default function Pack({
 }: PackProps) {
   return (
     <div className="flex flex-col">
-      <h1 className="text-white font-extrabold text-xl md:text-4xl mb-3 text-center">
+      <h1 className="text-white font-extrabold text-4xl mb-3 text-center">
         {tituloPack}
       </h1>
       <Image
@@ -45,7 +45,7 @@ export default function Pack({
       <p className="text-white text-sm my-2">{descricao1}</p>
       <Dialog>
         <DialogTrigger asChild>
-          <button className="bg-gray-400 w-full rounded mb-3 font-semibold cursor-pointer">
+          <button className="bg-gray-400 w-full rounded mb-3 font-semibold cursor-pointer active:scale-95 hover:scale-95 transition duration-300">
             See animations
           </button>
         </DialogTrigger>
@@ -82,7 +82,7 @@ export default function Pack({
                   ))
                 ) : (
                   // Se o array estiver vazio, renderiza a div "em breve"
-                  <div className="flex items-center justify-center w-100 bg-gray-100 rounded">
+                  <div className="flex items-center justify-center w-100 bg-gray-100 rounded ">
                     <p className="text-gray-500 text-lg font-semibold text-center">
                       Coming soon...
                     </p>

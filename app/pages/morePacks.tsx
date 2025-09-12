@@ -40,7 +40,7 @@ export default function MorePacks() {
       </h1>
 
       <div className="max-w-[1000px] mx-auto flex flex-col items-center justify-center my-5 gap-10">
-        <div className="flex gap-4 m-3 md:grid md:grid-cols-2 md:m-0">
+        <div className="flex flex-col gap-10 md:grid md:grid-cols-2">
           <Pack
             tituloPack="Assets Pack"
             subTituloPack1="Big Pack"
@@ -60,7 +60,7 @@ export default function MorePacks() {
             href="https://pay.hotmart.com/J101504754G"
           />
         </div>
-        <div className="flex gap-4 md:grid md:grid-cols-2 md:m-0">
+        <div className="flex flex-col gap-10 md:grid md:grid-cols-2">
           <Pack
             tituloPack="Transition Pack"
             subTituloPack1="Big Pack"
