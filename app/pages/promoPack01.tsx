@@ -5,7 +5,10 @@ import VideoPackVertical from "../_components/videoPackVertical";
 
 export default function PromoPack01() {
   return (
-    <div className="w-full flex flex-col items-center bg-cor-azul-site py-16 px-4">
+    <div
+      className="w-full flex flex-col items-center bg-cor-azul-site py-16 px-4"
+      id="promoPackId"
+    >
       <BannerPackDisponivel
         titulo="PROMO PACK 01"
         descricao="6 Completely editable projetcs"

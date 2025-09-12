@@ -1,7 +1,8 @@
 "use client";
 
 import { ReactTyped } from "react-typed";
-import { ButtonComprar } from "../_components/button-comprar";
+import { FaArrowDown } from "react-icons/fa";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -43,9 +44,12 @@ export function Hero() {
               templates that are ready to use and perfect for any project.
             </p>
 
-            <ButtonComprar href="#projectFeaturesPromoPack">
-              Buy Now
-            </ButtonComprar>
+            <Link
+              href="#promoPackId"
+              className="px-20 py-2 flex items-center cursor-pointer bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white text-lg font-semibold rounded-full border-none shadow-none transition duration-300 hover:from-pink-600 hover:via-purple-600 hover:to-blue-600 active:scale-95 active:shadow-inner"
+            >
+              <FaArrowDown className="mr-2" /> See our products
+            </Link>
           </div>
         </div>
       </div>
