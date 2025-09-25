@@ -2,11 +2,12 @@ import Pack from "../_components/pack";
 
 export default function MorePacks() {
   const motionGraphicVideos = [
-    "/videos/previews/motion-graphic/main-1.mp4",
-    "/videos/previews/motion-graphic/main-2.mp4",
-    "/videos/previews/motion-graphic/main-3.mp4",
-    "/videos/previews/motion-graphic/main-4.mp4",
-    "/videos/previews/motion-graphic/main-5.mp4",
+    "/videos/previews/motion-graphic/full-preview.mp4",
+    // "/videos/previews/motion-graphic/main-1.mp4",
+    // "/videos/previews/motion-graphic/main-2.mp4",
+    // "/videos/previews/motion-graphic/main-3.mp4",
+    // "/videos/previews/motion-graphic/main-4.mp4",
+    // "/videos/previews/motion-graphic/main-5.mp4",
   ];
 
   const typographyVideos = [
@@ -18,11 +19,12 @@ export default function MorePacks() {
   ];
 
   const transitionVideos = [
-    "/videos/previews/transition-pack/main-1.mp4",
-    "/videos/previews/transition-pack/main-2.mp4",
-    "/videos/previews/transition-pack/main-3.mp4",
-    "/videos/previews/transition-pack/main-4.mp4",
-    "/videos/previews/transition-pack/main-5.mp4",
+    "/videos/previews/transition-pack/full-preview.mp4",
+    // "/videos/previews/transition-pack/main-1.mp4",
+    // "/videos/previews/transition-pack/main-2.mp4",
+    // "/videos/previews/transition-pack/main-3.mp4",
+    // "/videos/previews/transition-pack/main-4.mp4",
+    // "/videos/previews/transition-pack/main-5.mp4",
   ];
 
   const assetsVideos = [
