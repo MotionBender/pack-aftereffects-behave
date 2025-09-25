@@ -7,11 +7,11 @@ export default function EditTheWay() {
   return (
     <div className="w-full flex flex-col items-center bg-cor-azul-site px-4 mt-5">
       <div className="flex flex-col">
-        <h1 className="text-white font-extrabold text-6xl">EDIT</h1>
-        <h1 className="text-white font-extrabold text-6xl">THE WAY</h1>
-        <h1 className="text-[#fc4478] font-extrabold text-6xl mb-5">
+        <h2 className="text-white font-extrabold text-6xl">EDIT</h2>
+        <h2 className="text-white font-extrabold text-6xl">THE WAY</h2>
+        <h2 className="text-[#fc4478] font-extrabold text-6xl mb-5">
           YOU WANT
-        </h1>
+        </h2>
       </div>
 
       <div>

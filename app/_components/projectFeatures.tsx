@@ -33,7 +33,7 @@ export default function ProjectFeatures({
             <span className=" text-white font-bold text-[30px] mt-2 akira">
               $
             </span>
-            <h1 className=" text-white font-bold text-9xl akira">5</h1>
+            <p className=" text-white font-bold text-9xl akira">5</p>
           </div>
         </div>
       </div>

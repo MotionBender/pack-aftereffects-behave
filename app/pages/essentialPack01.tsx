@@ -35,9 +35,9 @@ export default function EssentialPack01() {
           <VideoPackHorizontal src="/videos/essential_pack_01/BG8.mp4" />
         </div>
 
-        <h1 className="text-white font-extrabold text-3xl my-4 md:text-6xl">
+        <h3 className="text-white font-extrabold text-3xl my-4 md:text-6xl">
           50+ BACKGROUNDS
-        </h1>
+        </h3>
 
         <div className="flex mb-5">
           <div className="flex flex-col items-center">

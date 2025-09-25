@@ -10,9 +10,9 @@ export function BannerPackDisponivel({
   return (
     <div className="max-w-4xl md:w-[550px] min-h-[80px] flex justify-between bg-degrade-promopack rounded p-5">
       <div className="flex flex-col justify-center mr-6">
-        <h1 className="font-extrabold text-2xl md:text-4xl text-white font-montserrat">
+        <h2 className="font-extrabold text-2xl md:text-4xl text-white font-montserrat">
           {titulo}
-        </h1>
+        </h2>
         <p className="text-white leading-relaxed font-[150] md:text-base m-0">
           {descricao}
         </p>

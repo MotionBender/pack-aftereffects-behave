@@ -4,9 +4,9 @@ import { ButtonComprar } from "../_components/button-comprar";
 export function EverythingYouGet() {
   return (
     <div className="w-full bg-white items-center text-center py-10 px-10 mt-10">
-      <h1 className="text-[cor-azul-site] text-3xl font-bold mb-5 ">
+      <h2 className="text-[cor-azul-site] text-3xl font-bold mb-5 ">
         Everything you get in our pack
-      </h1>
+      </h2>
       <div className="max-w-[1240px] mx-auto gap-8 mb-8 grid md:grid-cols-2">
         <div>
           <p className="flex text-gray-600 gap-2">

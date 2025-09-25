@@ -23,7 +23,7 @@ export function CardBeneficioEsquerda({
           />
         </div>
         <div className="flex flex-col justify-center items-start px-8 py-6">
-          <h1 className="font-bold text-2xl mb-2 text-white">{titulo}</h1>
+          <h3 className="font-bold text-2xl mb-2 text-white">{titulo}</h3>
           <p className="text-gray-500 text-base leading-relaxed">{descricao}</p>
         </div>
       </div>

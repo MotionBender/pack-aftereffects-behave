@@ -9,16 +9,16 @@ export default function FreeProjectMorales() {
       <div className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 p-[2px] rounded-3xl max-w-[1400px] mx-auto flex flex-col items-center pb-10 md:pb-30">
         <div className="flex items-center justify-center p-4">
           <div>
-            <h1 className="text-white font-extrabold font-montserrat text-7xl md:text-[140px] leading-none">
+            <h2 className="text-white font-extrabold font-montserrat text-7xl md:text-[140px] leading-none">
               FREE
-            </h1>
+            </h2>
             <div className="flex items-center">
               <FaCircle className="text-white md:text-3xl" />
               <FaCircle className="text-white md:text-3xl mx-2" />
               <FaCircle className="text-white md:text-3xl mr-2" />
-              <h1 className="text-white font-thin text-3xl md:text-5xl ">
+              <p className="text-white font-thin text-3xl md:text-5xl ">
                 project
-              </h1>
+              </p>
             </div>
           </div>
           <div className="flex items-center mx-5">

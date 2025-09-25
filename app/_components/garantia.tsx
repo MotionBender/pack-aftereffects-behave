@@ -8,9 +8,9 @@ export function Garantia() {
           className="w-40 h-auto mx-auto"
         />
         <div className="my-5">
-          <h1 className="text-4xl font-bold cor-azul-site">
+          <h3 className="text-4xl font-bold cor-azul-site">
             100% of your money back
-          </h1>
+          </h3>
           <p className="text-gray-500">
             If the product does not work or is not to your liking, we will give
             you a full refund and cancel the purchase.

@@ -15,7 +15,7 @@ export function NavBar() {
             className="rounded-full"
           />
         </Link>
-        {/* <h1 className="w-full mx-2 text-2xl tracking-wider">Behave</h1> */}
+        {/* <p className="w-full mx-2 text-2xl tracking-wider">Behave</p> */}
       </div>
     </div>
   );
