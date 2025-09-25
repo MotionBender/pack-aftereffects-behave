@@ -3,8 +3,8 @@ import { ButtonComprar } from "../_components/button-comprar";
 
 export function EverythingYouGet() {
   return (
-    <div className="w-full bg-white items-center text-center py-10 px-10 mt-10">
-      <h2 className="text-[cor-azul-site] text-3xl font-bold mb-5 ">
+    <div className="w-full bg-white items-center py-10 px-10 mt-10">
+      <h2 className="text-[cor-azul-site] text-3xl font-bold mb-5 text-center">
         Everything you get in our pack
       </h2>
       <div className="max-w-[1240px] mx-auto gap-8 mb-8 grid md:grid-cols-2">
@@ -45,8 +45,9 @@ export function EverythingYouGet() {
           </p>
         </div>
       </div>
-
-      <ButtonComprar href="/">Buy Now</ButtonComprar>
+      <div className="text-center">
+        <ButtonComprar href="/">Buy Now</ButtonComprar>
+      </div>
     </div>
   );
 }
