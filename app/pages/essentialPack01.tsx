@@ -3,8 +3,8 @@ import { PiClockCountdown } from "react-icons/pi";
 import { SlSizeFullscreen } from "react-icons/sl";
 import { BannerPackDisponivel } from "../_components/bannerPackDisponivel";
 import { ButtonComprar } from "../_components/button-comprar";
+import ProjectFeatures from "../_components/projectFeatures";
 import VideoPackHorizontal from "../_components/videoPackHorizontal";
-import ProjectFeaturesEssentialPack from "../_components/projectFeaturesEssentialPack";
 
 export default function EssentialPack01() {
   return (
@@ -56,7 +56,7 @@ export default function EssentialPack01() {
           </div>
         </div>
 
-        <ProjectFeaturesEssentialPack />
+        <ProjectFeatures />
 
         <ButtonComprar href="https://pay.hotmart.com/I101255610S">
           Buy now

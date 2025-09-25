@@ -1,6 +1,6 @@
 import { BannerPackDisponivel } from "../_components/bannerPackDisponivel";
 import { ButtonComprar } from "../_components/button-comprar";
-import ProjectFeaturesPromoPack from "../_components/projectFeaturesPromoPack";
+import ProjectFeatures from "../_components/projectFeatures";
 import VideoPackVertical from "../_components/videoPackVertical";
 
 export default function PromoPack01() {
@@ -31,7 +31,7 @@ export default function PromoPack01() {
           <VideoPackVertical src="/videos/promo_pack_01/rayssa.mp4" />
         </div>
 
-        <ProjectFeaturesPromoPack />
+        <ProjectFeatures />
 
         <ButtonComprar href="https://pay.hotmart.com/B101169313N">
           Buy now
