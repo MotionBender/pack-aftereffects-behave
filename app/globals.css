@@ -171,6 +171,18 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* src/app/globals.css */
+@font-face {
+  font-family: "AkiraExpanded";
+  src: url("/fonts/AkiraExpandedDemo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.akira {
+  font-family: "AkiraExpanded", sans-serif;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -179,4 +191,3 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
