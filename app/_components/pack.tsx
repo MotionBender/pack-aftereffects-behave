@@ -53,7 +53,10 @@ export default function Pack({
             See animations
           </button>
         </DialogTrigger>
-        <DialogContent className="max-w-2xl w-full flex flex-col items-center justify-center bg-[#00081f] text-white">
+        <DialogContent
+          className="w-full max-w-[90vw] md:max-w-[70vw] lg:max-w-[60vw] xl:max-w-[50vw] 
+             flex flex-col items-center justify-center bg-[#00081f] text-white"
+        >
           <DialogHeader>
             <DialogTitle className="text-center">
               Animations Preview
@@ -62,11 +65,10 @@ export default function Pack({
               Preview the {tituloPack} included in this pack.
             </DialogDescription>
           </DialogHeader>
-          <div className="flex items-center justify-center">
-            <Carousel className="w-[80%] text-black">
+          <div className="flex items-center justify-center w-full">
+            <Carousel className="w-full max-w-[90%] text-black">
               <CarouselContent>
                 {arrayCaminhoVideos && arrayCaminhoVideos.length > 0 ? (
-                  // Se o array tiver itens, renderiza o carrossel
                   arrayCaminhoVideos.map((videoSrc, index) => (
                     <CarouselItem
                       key={index}
@@ -79,14 +81,13 @@ export default function Pack({
                           loop
                           muted
                           playsInline
-                          className="max-h-96 w-auto mx-auto rounded"
+                          className="max-h-[80vh] w-auto mx-auto rounded"
                         />
                       </div>
                     </CarouselItem>
                   ))
                 ) : (
-                  // Se o array estiver vazio, renderiza a div "em breve"
-                  <div className="flex items-center justify-center w-100 bg-gray-100 rounded ">
+                  <div className="flex items-center justify-center w-100 bg-gray-100 rounded">
                     <p className="text-gray-500 text-lg font-semibold text-center">
                       Coming soon...
                     </p>
