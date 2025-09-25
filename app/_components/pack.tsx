@@ -24,25 +24,29 @@ export default function Pack({
   subTituloPack1,
   subTituloPack2,
   descricao1,
+  descricao2,
   srcImagem,
   arrayCaminhoVideos = [],
   href,
 }: PackProps) {
   return (
-    <div className="flex flex-col">
-      <h1 className="text-white font-extrabold text-4xl mb-3 text-center">
+    <div className="flex flex-col items-center">
+      <h3 className="text-white font-extrabold text-4xl mb-3 text-center">
         {tituloPack}
-      </h1>
+      </h3>
       <Image
         src={srcImagem}
         alt="Pack 01 image"
-        width={320}
+        width={700}
         height={566}
         className="rounded-lg mb-3"
       />
-      <h1 className="text-white font-extrabold">{subTituloPack1}</h1>
-      <h1 className="text-white font-extrabold">{subTituloPack2}</h1>
-      <p className="text-white text-sm my-2">{descricao1}</p>
+      <div className="w-full my-4 px-2 md:p-0 md:my-0 md:h-[6vw] ">
+        <h4 className="text-white font-extrabold">{subTituloPack1}</h4>
+        <h4 className="text-white font-extrabold">{subTituloPack2}</h4>
+        <p className="text-white text-sm my-2">{descricao1}</p>
+        <p className="text-white text-sm my-2">{descricao2}</p>
+      </div>
       <Dialog>
         <DialogTrigger asChild>
           <button className="bg-gray-400 w-full rounded mb-3 font-semibold cursor-pointer active:scale-95 hover:scale-95 transition duration-300">
