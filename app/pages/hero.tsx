@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <div>
-      <div className="w-full flex items-center justify-center">
+    <div className="">
+      <div className="flex items-center justify-center">
         <div className="hero-background max-w-[1400px] mx-auto md:grid md:grid-cols-2 h-150 rounded-4xl flex items-center justify-center flex-col p-8 text-center md:text-start">
           <div className="flex flex-col justify-center items-center md:items-start">
             <h1

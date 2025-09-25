@@ -13,7 +13,7 @@ import { Direitos } from "./pages/direitos";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <NavBar />
       <Hero />
       <PromoPack01 />
