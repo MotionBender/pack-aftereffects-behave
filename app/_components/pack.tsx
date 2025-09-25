@@ -65,7 +65,7 @@ export default function Pack({
               Preview the {tituloPack} included in this pack.
             </DialogDescription>
           </DialogHeader>
-          <div className="flex items-center justify-center w-full">
+          <div className="relative flex items-center justify-center w-full">
             <Carousel className="w-full max-w-[90%] text-black">
               <CarouselContent>
                 {arrayCaminhoVideos && arrayCaminhoVideos.length > 0 ? (
@@ -94,8 +94,8 @@ export default function Pack({
                   </div>
                 )}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
+              <CarouselPrevious className="left-[-30]" />
+              <CarouselNext className="right-[-30]" />
             </Carousel>
           </div>
         </DialogContent>
