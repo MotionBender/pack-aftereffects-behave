@@ -14,7 +14,7 @@ export default function BackGroundPack() {
         descricao="50+ different backgrounds"
       />
 
-      <div className="max-w-[1000px] mx-auto flex flex-col items-center justify-center bg-cor-azul-site">
+      <div className="max-w-[1000px] flex flex-col items-center justify-center bg-cor-azul-site">
         <div className="flex gap-4 m-3 md:grid md:grid-cols-2 md:m-0">
           <VideoPackHorizontal src="/videos/essential_pack_01/BG1.mp4" />
           <VideoPackHorizontal src="/videos/essential_pack_01/BG2.mp4" />
