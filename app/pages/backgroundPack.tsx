@@ -8,7 +8,7 @@ import VideoPackHorizontal from "../_components/videoPackHorizontal";
 
 export default function BackGroundPack() {
   return (
-    <div className="w-full flex flex-col items-center bg-cor-azul-site px-4">
+    <div className="w-full flex flex-col items-center bg-cor-azul-site mt-10 px-4">
       <BannerPackDisponivel
         titulo="BACKGROUND PACK 01"
         descricao="50+ different backgrounds"
