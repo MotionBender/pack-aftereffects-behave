@@ -8,7 +8,7 @@ export default function ProjectFeatures({
   id = "ProjectFeatures",
 }: ProjectFeaturesProps) {
   return (
-    <div className="w-full md:w-[550px] px-3 mb-5 " id={`${id}`}>
+    <div className="my-5" id={`${id}`}>
       <div className="flex flex-col bg-degrade-venda p-5 rounded-xl">
         <h2 className="font-extrabold text-white font-montserrat text-5xl md:text-6xl akira">
           INCLUDED

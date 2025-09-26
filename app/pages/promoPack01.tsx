@@ -6,7 +6,7 @@ import VideoPackVertical from "../_components/videoPackVertical";
 export default function PromoPack01() {
   return (
     <div
-      className="w-full flex flex-col items-center bg-cor-azul-site py-16 px-4"
+      className="w-full flex flex-col items-center bg-cor-azul-site py-16"
       id="promoPackId"
     >
       <BannerPackDisponivel
@@ -17,7 +17,6 @@ export default function PromoPack01() {
       <div className="max-w-[1000px] mx-auto flex flex-col items-center justify-center bg-cor-azul-site">
         <div className="md:grid md:grid-cols-2 flex gap-4 p-3">
           <VideoPackVertical src="/videos/promo_pack_01/coffe.mp4" />
-
           <VideoPackVertical src="/videos/promo_pack_01/tenis_nike.mp4" />
         </div>
 
