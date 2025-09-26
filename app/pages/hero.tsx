@@ -8,7 +8,7 @@ import { VscChevronDown } from "react-icons/vsc";
 export function Hero() {
   return (
     <div className="flex items-center justify-center">
-      <div className="hero-background flex flex-col items-center justify-center rounded-4xl text-center max-w-[1400px] p-8 mx-auto h-130 mt-10 md:h-150 md:grid md:grid-cols-2 md:text-start">
+      <div className="hero-background flex flex-col items-center justify-center rounded-4xl text-center max-w-[1400px] p-8 mx-auto h-140 mt-10 md:h-150 md:grid md:grid-cols-2 md:text-start">
         <div className="flex flex-col justify-center items-center md:items-start">
           <h1
             className="
@@ -46,7 +46,7 @@ export function Hero() {
 
           <Link
             href="#promoPackId"
-            className="px-20 py-2 flex items-center cursor-pointer bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white text-lg font-semibold rounded-full border-none shadow-none transition duration-300 hover:from-pink-600 hover:via-purple-600 hover:to-blue-600 active:scale-95 active:shadow-inner"
+            className="px-15 md:px-30 py-2 flex items-center cursor-pointer bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white text-lg font-semibold rounded-full border-none shadow-none transition duration-300 hover:from-pink-600 hover:via-purple-600 hover:to-blue-600 active:scale-95 active:shadow-inner"
           >
             <VscChevronDown className="mr-2" /> See our templates
           </Link>
