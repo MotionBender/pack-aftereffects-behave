@@ -8,7 +8,7 @@ import { VscChevronDown } from "react-icons/vsc";
 export function Hero() {
   return (
     <div className="">
-      <div className="hero-background flex flex-col items-center justify-center rounded-4xl text-center max-w-[1400px] p-8 mx-auto h-140 md:h-150 md:grid md:grid-cols-2 md:text-start">
+      <div className="hero-background flex flex-col items-center justify-center rounded-4xl text-center max-w-[1400px] p-8 mx-auto h-130 md:h-150 md:grid md:grid-cols-2 md:text-start">
         <div className="flex flex-col justify-center items-center md:items-start">
           <h1
             className="
