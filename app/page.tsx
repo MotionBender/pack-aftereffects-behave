@@ -11,7 +11,7 @@ import PromoPack01 from "./pages/promoPack01";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div>
       <NavBar />
       <Hero />
       <PromoPack01 />
