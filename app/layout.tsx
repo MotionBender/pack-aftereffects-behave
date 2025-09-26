@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Oswald, Montserrat } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -19,8 +20,8 @@ const siteUrl = "https://www.motionbender.com.br";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "After Effects Packs - Motionbender",
-    template: "%s | Motionbender AE Packs",
+    default: "Motion bender | After Effects Packs",
+    template: "%s | Motion Bender",
   },
   description:
     "Buy exclusive After Effects packs for your creative projects. High-quality templates, transitions, and motion graphics for professionals.",
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
     description:
       "Buy exclusive After Effects packs for your creative projects. High-quality templates, transitions, and motion graphics for professionals.",
     url: siteUrl,
-    siteName: "Motionbender AE Packs",
+    siteName: "Motion bender",
     images: [
       {
         url: "/images/logo-behave.jpg",
@@ -91,11 +92,29 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const siteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Motion Bender",
+    alternateName: "Motionbender",
+    url: siteUrl,
+    publisher: {
+      "@type": "Organization",
+      name: "Motion Bender",
+    },
+  };
+
   return (
     <html lang="en" className="scroll-smooth">
       <body
         className={`${inter.variable} ${oswald.variable} ${montserrat.variable} antialiased`}
       >
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
         {children}
       </body>
     </html>
