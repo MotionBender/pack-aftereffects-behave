@@ -6,7 +6,7 @@ import { ButtonComprar } from "../_components/button-comprar";
 import ProjectFeatures from "../_components/projectFeatures";
 import VideoPackHorizontal from "../_components/videoPackHorizontal";
 
-export default function EssentialPack01() {
+export default function BackGroundPack() {
   return (
     <div className="w-full flex flex-col items-center bg-cor-azul-site px-4">
       <BannerPackDisponivel
